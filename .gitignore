@@ -1,0 +1,34 @@
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# React
+node_modules/
+dist/
+build/
+
+# Generated results
+results/
+*.log
+
+# RAG generated data and indexes
+data/raw/
+data/chunks/
+data/indexes/
+*.faiss
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
